@@ -1,0 +1,8 @@
+digraph dependencies {
+    graph [root="0726aa77-d552-46a8-a3ae-fc0445f2c86b", arrowhead="vee", bgcolor="mintcream", style="filled", shape="oval", fontname="HelveticaNeue"]
+    "d149b14d-2760-47da-ab8b-766c29086668" [color="palegreen2", arrowhead="vee", fillcolor="palegreen1", style="filled", shape="oval", fontname="HelveticaNeue"]
+    "58224f7f-d1f7-4044-8b2b-0c649652a272" [color="palegreen4", arrowhead="vee", fillcolor="palegreen3", style="filled", shape="oval", fontname="HelveticaNeue"]
+    "58224f7f-d1f7-4044-8b2b-0c649652a272" -> "d149b14d-2760-47da-ab8b-766c29086668" [color="darkseagreen4", arrowhead="vee", arrowsize="0.7", style="filled", shape="oval", arrowcolor="black", fontname="HelveticaNeue"]
+    "0726aa77-d552-46a8-a3ae-fc0445f2c86b" [color="palegreen4", arrowhead="vee", fillcolor="palegreen3", style="filled", shape="oval", fontname="HelveticaNeue"]
+    "0726aa77-d552-46a8-a3ae-fc0445f2c86b" -> "58224f7f-d1f7-4044-8b2b-0c649652a272" [color="darkseagreen4", arrowhead="vee", arrowsize="0.7", style="filled", shape="oval", arrowcolor="black", fontname="HelveticaNeue"]
+}
